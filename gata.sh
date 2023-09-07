@@ -1,4 +1,4 @@
-# Código creado por @gata_dios      
+# Código creado por @Nosti_dios      
 
 #!/data/data/com.termux/files/usr/bin/bash 
 # Interpretación determinada para la ejecución      
@@ -19,7 +19,7 @@ COMMENT
 echo -e "\033[01;93mPreparando instalación...\nPreparing installation...\n\033[0m"
 mp3_array=("install_automatic1.mp3" "install_automatic2.mp3" "install_automatic3.mp3" "install_automatic4.mp3" "install_automatic5.mp3" "install_automatic6.mp3" "install_automatic7.mp3" "install_automatic8.mp3" "install_automatic9.mp3" "install_automatic10.mp3" "install_automatic11.mp3" "install_automatic12.mp3")
 random_mp3=${mp3_array[$RANDOM % ${#mp3_array[@]}]}
-if wget -q https://github.com/GataNina-Li/GataBot-MD/raw/master/musicSH/"$random_mp3"; then
+if wget -q https://github.com/Nostalgia02-Li/NostiBot-MD/raw/master/musicSH/"$random_mp3"; then
 echo -e "\033[01;32mDescarga exitosa. Reproduciendo sonido de intro...\nDownload successful. Playing intro sound...\n\033[0m"
 while true; do
 mpv --no-terminal "$random_mp3" &
@@ -202,11 +202,11 @@ echo -e "\e[35m
 ╚═╝░░╚═╝░░  ░╚═════╝░╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝  ╚═════╝░░╚════╝░░░░╚═╝░░░\n\e[0m"
 
 echo -e "\033[1;35m"
-git clone https://github.com/GataNina-Li/GataBot-MD.git
+git clone https://github.com/Nostalgia02-Li/NostiBot-MD.git
 echo -e "\033[01;32m\033[01mLa clonación se ha descargado e instalado correctamente.\nThe clone has been downloaded and installed successfully.\n\033[0m"
 
 echo -e "\033[01;32m\033[01mCambiando al directorio del repositorio!!\nChanging to the repository directory!!\n\033[0m" 
-cd GataBot-MD
+cd GNostiBot-MD
 
 echo -e "\e[36m
 ██╗░░░██╗██████╗░██████╗░░█████╗░████████╗███████╗  ██╗░░░██╗░█████╗░██████╗░███╗░░██╗
@@ -249,7 +249,7 @@ v1="${b}\033[32m"
 b="\033[0m"
 
 menu() {
-	#GataBot-MD
+	#NostiBot-MD
 	echo -e "${v1} MENÚ DE CONFIGURACIÓN"
 	printf "\n"
 	printf "${v1}[${b}01${v1}]${v} Visistar Grupo de Actualizaciones\n"
@@ -334,5 +334,5 @@ _______░▒▓██
 _____░▒▓██\n\e[0m"
     
 sleep 15 && pkill mpv > /dev/null 2>&1 && sleep 2 && rm -f /data/data/com.termux/files/home/"$random_mp3" &
-echo -e "\033[01;32m\033[01mIniciando GataBot!!\nStarting CatBot!!\n\033[0m"
+echo -e "\033[01;32m\033[01mIniciando NostiBot!!\nStarting SexyBot!!\n\033[0m"
 npm start
