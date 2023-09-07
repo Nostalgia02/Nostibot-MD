@@ -54,14 +54,14 @@
 
 | TEMA | DESCRIPCIÓN | ATAJO |
 |------|-------------|-------|
-| **TERMUX** | ***INSTALACIÓN AUTOMÁTICA*** |[ver](https://github.com/GataNina-Li/GataBot-MD/#-opción-1-instalación-automática-por-termux-) |
-| **TERMUX** | ***INSTALACIÓN MANUAL*** |[ver](https://github.com/GataNina-Li/GataBot-MD/#-opción-2-instalación-manual-por-termux---github) |
-| **TERMUX** | ***INSTALACIÓN POR ARCHIVOS*** |[ver](https://github.com/GataNina-Li/GataBot-MD/#-opción-3-instalación-por-termux---archivos) |
-| **TERMUX 24/7** | ***COMANDOS*** |[ver](https://github.com/GataNina-Li/GataBot-MD/#-usar-gatabot-247-en-termux) |
-| **TERMUX UPDATE** | ***COMANDOS PARA ACTUALIZAR GATABOT*** |[ver](https://github.com/GataNina-Li/GataBot-MD/#-actualizar-gatabot) |
+| **TERMUX** | ***INSTALACIÓN AUTOMÁTICA*** |[ver](https://github.com/Nostalgia02-Li/NostiBot-MD/#-opción-1-instalación-automática-por-termux-) |
+| **TERMUX** | ***INSTALACIÓN MANUAL*** |[ver](https://github.com/Nostalgia02-Li/NostiBot-MD/#-opción-2-instalación-manual-por-termux---github) |
+| **TERMUX** | ***INSTALACIÓN POR ARCHIVOS*** |[ver](https://github.com/Nostalgia02-Li/NostiBot-MD/#-opción-3-instalación-por-termux---archivos) |
+| **TERMUX 24/7** | ***COMANDOS*** |[ver](https://github.com/Nostalgia-Li/NostiBot-MD/#-usar-gatabot-247-en-termux) |
+| **TERMUX UPDATE** | ***COMANDOS PARA ACTUALIZAR GATABOT*** |[ver](https://github.com/Nostalgia02-Li/NostiBot-MD/#-actualizar-gatabot) |
 | **HEROKU** | ***INSTALACIÓN POR HEROKU*** |[ver](https://github.com/GataNina-Li/GataBot-MD/#-activar-en-heroku) |
 | **BOXMINE** | ***INSTALACIÓN POR BOXMINE*** |[ver](https://github.com/GataNina-Li/GataBot-MD/#-boxminehost) |
-| **REPLIT** | ***INSTALACIÓN POR REPLIT*** |[ver](https://github.com/GataNina-Li/GataBot-MD/#-replit---gatabot) |
+| **REPLIT** | ***INSTALACIÓN POR REPLIT*** |[ver](https://github.com/Nostalgia02-Li/NostiBot-MD/#-replit---Nostibot) |
 | **KOYEB** | ***INSTALACIÓN POR KOYEB*** |[ver](https://github.com/GataNina-Li/GataBot-MD/#-activar-en-koyeb) |
 | **WINDOWS** | ***INSTALACIÓN POR WINDOWS*** |[ver](https://github.com/GataNina-Li/GataBot-MD/#-para-usuarios-de-windowsvpsrdp) |
 | **PREGUNTAS FRECUENTES** | ***DESPEJAR DUDAS*** |[ver](https://github.com/GataNina-Li/GataBot-MD/#-gatabot-md---preguntas) |
@@ -75,7 +75,7 @@
 termux-setup-storage
 ```
 ```bash
-apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/GataNina-Li/GataBot-MD/master/gata.sh | bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/Nostalgia02-Li/NostiBot-MD/master/gata.sh | bash
 ```
 ```js
 // PERSONALIZAR INSTALACIÓN AUTOMÁTICA (En caso de una Bifurcación)
@@ -87,14 +87,14 @@ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - 
 // PARÁMETROS QUE PUEDE SER MODIFICADOS --> "[...]"
 "wget -O - https://raw.githubusercontent.com/[usuario]/[repositorio]/[rama]/gata.sh | bash"
 ```
-#### MODIFICAR ARCHIVO [`gata.sh`](https://github.com/GataNina-Li/GataBot-MD/blob/master/gata.sh)
+#### MODIFICAR ARCHIVO [`gata.sh`](https://github.com/Nostalgia02-Li/NostiBot-MD/blob/master/gata.sh)
 ```js
 //LÍNEAS A MODIFICAR
 205 --> "git clone https://github.com/[user]/[repositorio].git"
-//Ejemplo: git clone https://github.com/GataNina-Li/GataBot-MD.git
+//Ejemplo: git clone https://github.com/Nostalgia-Li/NostiBot-MD.git
 
 209 --> "cd [repositorio]"
-//Ejemplo: cd GataBot-MD
+//Ejemplo: cd nostiBot-MD
 
 //Una vez hecho estos cambios ejecute los nuevos comandos en Termux
 ```
@@ -111,7 +111,7 @@ apt update && apt upgrade && pkg install git nodejs ffmpeg imagemagick yarn && g
 ------------------
 ### 📁 (OPCIÓN 3) INSTALACIÓN POR TERMUX - ARCHIVOS
 > **Note** Descargué y Descomprime
-### [`GataBot-MD ~ Archivos`](https://github.com/GataNina-Li/GataBot-MD/archive/refs/heads/master.zip)
+### [`NostiBot-MD ~ Archivos`](https://github.com/Nostalgia02-Li/NostiBot-MD/archive/refs/heads/master.zip)
 [![blog](https://img.shields.io/badge/Termux-GataBotMD-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://youtu.be/UcWlyQ8u5HE)
 ```bash
@@ -119,7 +119,7 @@ termux-setup-storage
 apt update
 apt upgrade
 pkg install -y git nodejs ffmpeg imagemagick yarn
-cd storage/downloads/GataBot-MD-master/GataBot-MD-master 
+cd storage/downloads/NostiBot-MD-master/nostiBot-MD-master 
 yarn install
 npm install
 npm start
@@ -129,7 +129,7 @@ npm start
 > **Note** Guardar los archivos en la ubicación: storage/downloads/GataBot-MD-master/GataBot-MD-master   
 ----
 ### 🚀 USAR GATABOT 24/7 EN TERMUX 
-> Ejecutar estos comandos dentro de la carpeta GataBot-MD
+> Ejecutar estos comandos dentro de la carpeta NostiBot-MD
 ```bash
 termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
 ``` 
@@ -151,10 +151,10 @@ pm2 stop index
 pm2 start index
 ``` 
 ----
-### 😼 ACTUALIZAR GATABOT
+### 😼 ACTUALIZAR NOSTIBOT
 > **Note** Comandos para actualizar GataBot-MD de forma automática
 ```bash
-grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/GataNina-Li/GataBot-MD/master/update.sh | bash 
+grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/Nostalgia02-Li/NostiBot-MD/master/update.sh | bash 
 ```
 #### Para que no pierda su progreso en GataBot, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
 > **Warning** Estos comandos solo funcionan para TERMUX, REPLIT, LINUX                           
@@ -189,13 +189,13 @@ https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 - Panel: [`https://panel.boxmineworld.com`](https://panel.boxmineworld.com)
 - Dudas UNICAMENTE SOBRE EL HOST: [`https://discord.gg/84qsr4v`](https://discord.gg/84qsr4v) (Preguntar por Vicemi)
 
-- [x] Resultado <details><summary>Ajustes del Servidor - GataBot-MD</summary><img src="https://i.imgur.com/N0SwvbY.jpeg"></details>
+- [x] Resultado <details><summary>Ajustes del Servidor - NostiBot-MD</summary><img src="https://i.imgur.com/N0SwvbY.jpeg"></details>
 ------------------
-### ⚡ REPLIT - GATABOT
-[![blog](https://img.shields.io/badge/Replit-GataBotMD-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
+### ⚡ REPLIT - NostiBOT
+[![blog](https://img.shields.io/badge/Replit-NostiBotMD-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://youtu.be/pQYkq4xv37o)
-<a target="_blank" href="https://replit.com/github/GataNina-Li/GataBot-MD"><img alt="Run on Replit" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg"></a>
-<a href="https://replit.com/github/GataNina-Li/GataBot-MD"> <img src="https://media0.giphy.com/media/lMwu8EJAnv9kmn51KQ/giphy.gif" height="29px"></a>
+<a target="_blank" href="https://replit.com/github/Nostalgia02-Li/NostiBot-MD"><img alt="Run on Replit" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg"></a>
+<a href="https://replit.com/github/Nostalgia02-Li/NostiBot-MD"> <img src="https://media0.giphy.com/media/lMwu8EJAnv9kmn51KQ/giphy.gif" height="29px"></a>
 ------------------
 - [x] Resultado <details><summary>Importar Repositorio - GataBot-MD</summary><img src="https://i.imgur.com/GQyRnMf.jpg"></details>
 ------------------
@@ -216,7 +216,7 @@ https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 * Descargar e instala ImageMagick [`Aquí`](https://imagemagick.org/script/download.php)
 * Descargar e instala Yarn [`Aquí`](https://classic.yarnpkg.com/en/docs/install#windows-stable)
 ```bash
-git clone https://github.com/GataNina-Li/GataBot-MD && cd GataBot-MD && npm install && npm update && node .
+git clone https://github.com/Nostalgia02-Li/NostiBot-MD && cd NostiBot-MD && npm install && npm update && node .
 ```
 ## 💻 Instalación de FFmpeg para Windows 
 * Descarga cualquiera de las versiones de FFmpeg disponibles haciendo clic en [FFmpeg](https://www.gyan.dev/ffmpeg/builds/).
@@ -233,7 +233,7 @@ Si tiene éxito, le dará un mensaje como: `SUCCESS: specified value was saved`.
 > ffmpeg -version
 ```
 ----  
-### ❔ GataBot-MD - Preguntas 
+### ❔ NostiBot-MD - Preguntas 
 <details>
 <summary><b>Configuración</b></summary>
 
@@ -241,50 +241,50 @@ Si tiene éxito, le dará un mensaje como: `SUCCESS: specified value was saved`.
   _Puede hacerlo desde [`💚 Aquí`](https://github.com/GataNina-Li/GataBot-MD/fork)._
   
   - [x] **¿Dónde puedo agregar el número del Bot?**<br>
-  _Puede hacerlo desde el archivo [`⚙️ config.js`](https://github.com/GataNina-Li/GataBot-MD/blob/master/config.js). En el apartado `global.owner` puede agregar el número del Bot y más números como Owner._
+  _Puede hacerlo desde el archivo [`⚙️ config.js`](https://github.com/Nostalgia02-Li/NostiBot-MD/blob/master/config.js). En el apartado `global.owner` puede agregar el número del Bot y más números como Owner._
   ```js
   global.owner = [
-  ['59311222333', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈', true], // Número del Bot: Ejemplo +593 11 222 333
-  ['59300999222'], // Owner 1 +593 00 999 222
+  ['12647291732', 'Nosti𝘽𝙤𝙩-𝙈𝘿 💖🐈', true], // Número del Bot: Ejemplo +593 11 222 333
+  ['18099520679'], // Owner 1 +593 00 999 222
   ['59377333999'] // Owner 2 +593 77 333 999
 ]
   ```
   - [x] **¿Cómo edito el texto del Bot?**<br>
-  _Ir a la carpeta [`idiomas ✨`](https://github.com/GataNina-Li/GataBot-MD/tree/master/lib/idiomas) y selecciona el archivo del idioma que quiera modificar su contenido._
+  _Ir a la carpeta [`idiomas ✨`](https://github.com/Nostalgia-Li/NostiBot-MD/tree/master/lib/idiomas) y selecciona el archivo del idioma que quiera modificar su contenido._
   
-  - [x] **¿Dónde puedo cambiar el idioma de GataBot?**<br>
-  _Puede cambiar el idioma ingresando [`Aquí`](https://github.com/GataNina-Li/GataBot-MD/blob/362ee2d694a033923efd9bf9ca16a2b0694e3073/config.js#L41)_
+  - [x] **¿Dónde puedo cambiar el idioma de NostiBot?**<br>
+  _Puede cambiar el idioma ingresando [`Aquí`](https://github.com/Nostalgia-Li/NostiBot-MD/blob/362ee2d694a033923efd9bf9ca16a2b0694e3073/config.js#L41)_
 </details>
 
 <details>
 <summary><b>Preguntas sobre Termux</b></summary>
 
-  - [x] **¿Cómo puedo instalar GataBot en Termux?**<br>
-  _Puede usar la [`Instalación Automática 😼`](https://github.com/GataNina-Li/GataBot-MD/#-opci%C3%B3n-1-instalaci%C3%B3n-autom%C3%A1tica-por-termux-) si es la primera vez que va instalar._<br>
+  - [x] **¿Cómo puedo instalar NostiBot en Termux?**<br>
+  _Puede usar la [`Instalación Automática 😼`](https://github.com/Nostalgia02-Li/NostiBot-MD/#-opci%C3%B3n-1-instalaci%C3%B3n-autom%C3%A1tica-por-termux-) si es la primera vez que va instalar._<br>
   
   - [x] **¿Cómo puedo descargar Termux?**<br>
   _Puede descargar la versión de Termux e instalar [`Aquí 😉`](https://f-droid.org/es/packages/com.termux/)._
   
-  - [x] **¿Cómo conectar a GataBot si se cierra la aplicación de Termux?**<br>
-  _Primero abrir Termux, luego usar este comando para iniciar GataBot si previamente ya hizo su instalación `cd GataBot-MD && npm start`_
+  - [x] **¿Cómo conectar a NostiBot si se cierra la aplicación de Termux?**<br>
+  _Primero abrir Termux, luego usar este comando para iniciar NostiBot si previamente ya hizo su instalación `cd NostiBot-MD && npm start`_
   <details><summary>Ejemplo</summary><img src="https://i.imgur.com/6nqEr5g.jpeg"></details>
   
-  - [x] **¿Cómo iniciar GataBot si me encuentro dentro de su carpeta?**<br>
-  _Usar `npm start` para iniciar GataBot si ya está dentro de la carpeta_
+  - [x] **¿Cómo iniciar NostiBot si me encuentro dentro de su carpeta?**<br>
+  _Usar `npm start` para iniciar NostiBot si ya está dentro de la carpeta_
   <details><summary>Ejemplo</summary><img src="https://i.imgur.com/vqxz6Lc.jpeg"></details>
   
   - [x] **¿Cómo detengo Termux?**<br>
   _Use el botón de termux `CTRL` + Tecla `Z` para detener termux._
   
   - [x] **Quiero tener Termux 24/7 ¿Cómo lo hago?**<br>
-  _Desde la carpeta de GataBot use los comandos [`24/7 Termux 🚀`](https://github.com/GataNina-Li/GataBot-MD/#-usar-gatabot-247-en-termux)_
+  _Desde la carpeta de GataBot use los comandos [`24/7 Termux 🚀`](https://github.com/Nostalgia02-Li/NostiBot-MD/#-usar-Nostibot-247-en-termux)_
   <details><summary>Ejemplo</summary><img src="https://i.imgur.com/ZNarv99.jpeg"></details>
   
   - [x] **Comandos para obtener nuevo código QR:**<br>
-  _Diga estos comandos desde la carpeta de GataBot `rm -rf GataBotSession && npm start`_
+  _Diga estos comandos desde la carpeta de NostiBot `rm -rf NostiBotSession && npm start`_
   
-  - [x] **¿Cómo actualizar GataBot?**<br>
-  _Desde la carpeta de GataBot usar los commandos para [`♻️ Actualizar GataBot-MD`](https://github.com/GataNina-Li/GataBot-MD/#-actualizar-gatabot)_
+  - [x] **¿Cómo actualizar NostiBot?**<br>
+  _Desde la carpeta de NostiBot usar los commandos para [`♻️ Actualizar NostiBot-MD`](https://github.com/Nostigia02-Li/NostiBot-MD/#-actualizar-Nostibot)_
   <details><summary>Ejemplo</summary><img src="https://i.imgur.com/1kLVQj4.jpeg"></details>
   
   - [x] **¿Que hago si no responde el Bot después de iniciar o si muestra un mensje diciendo "Mensaje en espera"?**<br>
