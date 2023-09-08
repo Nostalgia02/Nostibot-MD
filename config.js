@@ -102,12 +102,12 @@ global.official = [ // Agregate si eres Owner
 ["5521989092076", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],
 ["5491173694367", 'Prueba', 1]];
 
-global.mail = ''; //agrega tú correo
-global.desc = ''; //agrega una descripción corta
-global.desc2 = ''; //agrega una descripción larga (Solo se aplicará si su whasapp no tiene descripción)
-global.country = ''; //agrega tú país ejemplo: 🇪🇨
+global.mail = ''; //ttps://github.com/Nostalgia02/Nostibot-MD
+global.desc = ''; //me electrocutaste pedrito
+global.desc2 = ''; //la que no es puta no disfruta y por eso soy dracuputa -baila super shy-
+global.country = ''; //agrega tú país ejemplo:rd
 
-global.packname = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 🐈";
+global.packname = "Nosti𝘽𝙤𝙩-𝙈𝘿 ";
 global.author = "𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨";
 
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
@@ -170,8 +170,8 @@ global.exito = eg;
 
 //⊱ ━━━━━.⋅ Información | Information ⋅.━━━━ ⊰
 
-global.wm = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 : 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨";
-global.igfg = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿";
+global.wm = "Nosti𝘽𝙤𝙩-𝙈𝘿 : Sexy 𝘿𝙞𝙤𝙨";
+global.igfg = "Nosti𝘽𝙤𝙩-𝙈𝘿";
 global.wait = "*⌛ _Cargando | Charging..._ ▬▭▭▭▭▭▭*";
 global.waitt = "*⌛ _Cargando | Charging..._ ▬▬▭▭▭*";
 global.waittt = "*⌛ _Cargando | Charging..._ ▬▬▬▬▭▭*";
